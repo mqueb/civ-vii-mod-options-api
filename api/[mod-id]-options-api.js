@@ -150,8 +150,7 @@ export function setupModOptions({ namespace, settingsKey }) {
 
     CategoryType["Mods"] = "mods";
     CategoryData[CategoryType.Mods] = {
-        title: "LOC_UI_CONTENT_MGR_SUBTITLE",
-        description: "LOC_UI_CONTENT_MGR_SUBTITLE_DESCRIPTION",
+        title: "LOC_UI_MP_HEADER_MODS"
     };
 
     const proto = Object.getPrototypeOf(Options);
